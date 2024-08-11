@@ -7,10 +7,10 @@ export default {
 	darkMode: ["class"],
 	content: ["./src/**/*.{html,js,svelte,ts}"],
 	safelist: ["dark"],
-  plugins: [
-    addVariablesForColors,
-    aspectRatio,
-  ],
+	plugins: [
+		addVariablesForColors,
+		aspectRatio,
+	],
 	theme: {
 		container: {
 			center: true,
@@ -68,12 +68,12 @@ export default {
 }as Config;
 
 function addVariablesForColors({ addBase, theme }: any) {
-  let allColors = flattenColorPalette(theme("colors"));
-  let newVars = Object.fromEntries(
-    Object.entries(allColors).map(([key, val]) => [`--${key}`, val])
-  );
-  
-  addBase({
-    ":root": newVars
+	let allColors = flattenColorPalette(theme("colors"));
+	let newVars = Object.fromEntries(
+		Object.entries(allColors).map(([key, val]) => [`--${key}`, val])
+	);
+
+	addBase({
+		":root": newVars
 });
 }
