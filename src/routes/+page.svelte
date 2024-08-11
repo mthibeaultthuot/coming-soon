@@ -2,6 +2,10 @@
    import { BackgroundBeams } from '$lib/components/ui/BackgroundBeams/BackgroundBeams';
 </script>
 
+<head>
+   <title>Coming Soon™</title>
+</head>
+
 <div
    class="relative flex h-screen w-screen flex-col items-center justify-center rounded-md bg-neutral-950 px-0 antialiased"
 >
