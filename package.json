@@ -1,0 +1,37 @@
+{
+	"name": "coming-soon",
+	"version": "0.0.1",
+	"private": true,
+	"author": {
+		"name": "qualk",
+		"email": "qualk@qualk.xyz",
+		"url": "https://qualk.xyz"
+	},
+	"scripts": {
+		"dev": "vite dev",
+		"build": "vite build",
+		"preview": "vite preview",
+		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
+		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch"
+	},
+	"devDependencies": {
+		"@sveltejs/kit": "^2.5.21",
+		"@sveltejs/vite-plugin-svelte": "^3.1.1",
+		"@tailwindcss/aspect-ratio": "^0.4.2",
+		"autoprefixer": "^10.4.20",
+		"svelte": "^4.2.18",
+		"svelte-adapter-bun": "^0.5.2",
+		"svelte-check": "^3.8.5",
+		"tailwindcss": "^3.4.9",
+		"typescript": "^5.5.4",
+		"vite": "^5.4.0"
+	},
+	"type": "module",
+	"dependencies": {
+		"bits-ui": "^0.21.13",
+		"clsx": "^2.1.1",
+		"svelte-motion": "^0.12.2",
+		"tailwind-merge": "^2.4.0",
+		"tailwind-variants": "^0.2.1"
+	}
+}
