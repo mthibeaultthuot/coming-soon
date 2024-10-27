@@ -2,9 +2,14 @@
    import { BackgroundBeams } from '$lib/components/ui/BackgroundBeams/BackgroundBeams';
 </script>
 
-<head>
-   <title>Coming Soon™</title>
-</head>
+<svelte:head>
+	<title>Veem Digital | Home</title>
+	<meta
+		name="description"
+		content="Veem Digital combines creativity and cutting-edge AI to deliver precision-driven website development, software, and intelligent digital solutions tailored to elevate your business."
+	/>
+	<link rel="icon" href="/logo1.svg" />
+</svelte:head>
 
 <div
    class="relative flex h-screen w-screen flex-col items-center justify-center rounded-md bg-neutral-950 px-0 antialiased"
